@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css" />
-    <script type="javascript" src="js/matrix.js"></script>
+    <link rel="stylesheet" href="css/dark-theme.css" />
+    <script type="text/javascript" src="js/matrix.js"></script>
     <!-- <link rel="shortcut icon" href="pic/favicon.ico" /> -->
     <title>Font Creator v.1</title>
 </head>
 <body>
+    <button id="theme-toggle" style="position: fixed; top: 10px; right: 10px; z-index: 1000;">Toggle Dark Theme</button>
     <!-- header +++ -->
     <header>
         <div class="container">
